@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'pt-serif';
+    src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
+}
+
+.judul{
+    font-family: 'pt-serif', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -0.045em;
+    line-height: 47.7px;
+    position: absolute;
+    width: 278px;
+    height: 47px;
+    top: 110px;
+    left: 243px;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/poppins-regular-webfont.woff2)format('woff2');
+}
+
+.subjudul{
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 27px;
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    top: 110px;
+    left: 736px;
+}
+
+.utama{
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 27px;
+    position: absolute;
+    width: 439px;
+    height: 87px;
+    top: 147px;
+    left: 736px;
+}
+
+.container{
+    width: 850px;
+    height: 990px;
+    margin: 245px auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: "bil saba shae"
+    "skylah griff stan";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container .satu{
+    grid-area: bill;
+}
+
+.container .dua{
+    grid-area: saba;
+}
+
+.container .tiga{
+    grid-area: shae;
+}
+
+.container .empat{
+    grid-area: skylah;
+}
+
+.container .lima{
+    grid-area: griff;
+}
+
+.container .enam{
+    grid-area: stan;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../font/montserratalternates-light-webfont.woff2)format('woff');
+}
+
+.footer{
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a9a9a9;
+    line-height: 17.07px;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    height: 17px;
+    top: 1448px;
+    left: 445px;
+}
+}
