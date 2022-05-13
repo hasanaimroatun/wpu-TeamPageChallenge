@@ -85,6 +85,119 @@
     grid-area: stan;
 }
 
+b{
+    font-family: 'poppins';
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+p{
+    font-family: 'pt-serif';
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.9px;
+    transform: rotate(90deg);
+}
+
+.name .satu b{
+    width: 117px;
+    height: 27px;
+    position: absolute;
+    top: 686px;
+    left: 240px;
+}
+
+.name .satu p{
+    width: 102px;
+    height: 16px;
+    position: absolute;
+    top: 330px;
+    left: 504px;
+}
+
+.name .dua b{
+    width: 135px;
+    height: 27px;
+    position: absolute;
+    top: 791px;
+    left: 571px;
+}
+
+.name .dua p{
+    width: 90px;
+    height: 16px;
+    position: absolute;
+    top: 429px;
+    left: 835px;
+}
+
+.name .tiga b{
+    width: 75px;
+    height: 27px;
+    position: absolute;
+    top: 686px;
+    left: 901px;
+}
+
+.name .tiga p{
+    width: 65px;
+    height: 16px;
+    position: absolute;
+    top: 330px;
+    left: 1165px;
+}
+
+.name .empat b{
+    width: 86px;
+    height: 27px;
+    position: absolute;
+    top: 1201px;
+    left: 241px;
+}
+
+.name .empat p{
+    width: 77px;
+    height: 16px;
+    position: absolute;
+    top: 845px;
+    left: 504px;
+}
+
+.name .lima b{
+    width: 129px;
+    height: 27px;
+    position: absolute;
+    top: 1306px;
+    left: 571px;
+}
+
+.name .lima p{
+    width: 68px;
+    height: 16px;
+    position: absolute;
+    top: 944px;
+    left: 835px;
+}
+
+.name .enam b{
+    width: 97px;
+    height: 27px;
+    position: absolute;
+    top: 1201px;
+    left: 902px;
+}
+
+.name .enam p{
+    width: 76px;
+    height: 16px;
+    position: absolute;
+    top: 845px;
+    left: 1165px;
+}
+
 @font-face {
     font-family: 'montserrat';
     src: url(../font/montserratalternates-light-webfont.woff2)format('woff');
