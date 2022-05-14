@@ -3,7 +3,7 @@
     src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
 }
 
-.judul{
+.header .judul{
     font-family: 'pt-serif', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -55,10 +55,9 @@
     border: 5px solid black;
     box-sizing: border-box;
     display: grid;
-    grid-template-areas: "bil saba shae"
-    "skylah griff stan";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 10px;
 }
 
 .container .satu{
