@@ -3,7 +3,7 @@
     src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
 }
 
-.judul{
+.header .judul b{
     font-family: 'pt-serif', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -49,40 +49,41 @@
 }
 
 .container{
-    width: 850px;
-    height: 990px;
+    width: 890px;
+    height: 1100px;
     margin: 245px auto;
-    border: 5px solid black;
-    box-sizing: border-box;
     display: grid;
-    grid-template-areas: "bil saba shae"
-    "skylah griff stan";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 100px;
 }
 
-.container .satu{
-    grid-area: bill;
+.pict1{
+    align-self:center;
+    margin-bottom: 20px;
 }
 
-.container .dua{
-    grid-area: saba;
+.pict2{
+    align-self:flex-end;
+    margin-bottom: -25px;
 }
 
-.container .tiga{
-    grid-area: shae;
+.pict3{
+    align-self:center;
+    margin-bottom: 20px;
 }
 
-.container .empat{
-    grid-area: skylah;
+.pict4{
+    margin-top: -20px;
 }
 
-.container .lima{
-    grid-area: griff;
+.pict5{
+    align-self: flex-end;
+    margin-bottom:50px;
 }
 
-.container .enam{
-    grid-area: stan;
+.pict6{
+    margin-top: -20px;
 }
 
 b{
@@ -106,8 +107,8 @@ p{
     width: 117px;
     height: 27px;
     position: absolute;
-    top: 686px;
-    left: 240px;
+    top: 680px;
+    left: 230px;
 }
 
 .name .satu p{
@@ -115,39 +116,39 @@ p{
     height: 16px;
     position: absolute;
     top: 330px;
-    left: 504px;
+    left: 445px;
 }
 
 .name .dua b{
     width: 135px;
     height: 27px;
     position: absolute;
-    top: 791px;
-    left: 571px;
+    top: 785px;
+    left: 565px;
 }
 
 .name .dua p{
     width: 90px;
     height: 16px;
     position: absolute;
-    top: 429px;
-    left: 835px;
+    top: 435px;
+    left: 790px;
 }
 
 .name .tiga b{
     width: 75px;
     height: 27px;
     position: absolute;
-    top: 686px;
-    left: 901px;
+    top: 680px;
+    left: 905px;
 }
 
 .name .tiga p{
     width: 65px;
     height: 16px;
     position: absolute;
-    top: 330px;
-    left: 1165px;
+    top: 320px;
+    left: 1140px;
 }
 
 .name .empat b{
@@ -155,7 +156,7 @@ p{
     height: 27px;
     position: absolute;
     top: 1201px;
-    left: 241px;
+    left: 230px;
 }
 
 .name .empat p{
@@ -163,7 +164,7 @@ p{
     height: 16px;
     position: absolute;
     top: 845px;
-    left: 504px;
+    left: 455px;
 }
 
 .name .lima b{
@@ -171,7 +172,7 @@ p{
     height: 27px;
     position: absolute;
     top: 1306px;
-    left: 571px;
+    left: 565px;
 }
 
 .name .lima p{
@@ -179,7 +180,7 @@ p{
     height: 16px;
     position: absolute;
     top: 944px;
-    left: 835px;
+    left: 800px;
 }
 
 .name .enam b{
@@ -187,7 +188,7 @@ p{
     height: 27px;
     position: absolute;
     top: 1201px;
-    left: 902px;
+    left: 907px;
 }
 
 .name .enam p{
@@ -195,7 +196,7 @@ p{
     height: 16px;
     position: absolute;
     top: 845px;
-    left: 1165px;
+    left: 1135px;
 }
 
 @font-face {
@@ -216,4 +217,10 @@ p{
     top: 1448px;
     left: 445px;
 }
+
+.footer a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
 }
+
