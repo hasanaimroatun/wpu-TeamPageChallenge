@@ -3,208 +3,11 @@
     src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
 }
 
-<<<<<<< HEAD
-.header .judul b{
-    font-family: 'pt-serif', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #000000;
-    letter-spacing: -0.045em;
-    line-height: 47.7px;
-    position: absolute;
-    width: 278px;
-    height: 47px;
-    top: 110px;
-    left: 243px;
-}
-
-=======
->>>>>>> versi3
 @font-face {
     font-family: 'poppins';
     src: url(../font/poppins-regular-webfont.woff2)format('woff2');
 }
 
-<<<<<<< HEAD
-.subjudul{
-    font-family: 'poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 27px;
-    position: absolute;
-    width: 117px;
-    height: 27px;
-    top: 110px;
-    left: 736px;
-}
-
-.utama{
-    font-family: 'poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #000000;
-    line-height: 27px;
-    position: absolute;
-    width: 439px;
-    height: 87px;
-    top: 147px;
-    left: 736px;
-}
-
-.container{
-    width: 890px;
-    height: 1100px;
-    margin: 245px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 100px;
-}
-
-.pict1{
-    align-self:center;
-    margin-bottom: 20px;
-}
-
-.pict2{
-    align-self:flex-end;
-    margin-bottom: -25px;
-}
-
-.pict3{
-    align-self:center;
-    margin-bottom: 20px;
-}
-
-.pict4{
-    margin-top: -20px;
-}
-
-.pict5{
-    align-self: flex-end;
-    margin-bottom:50px;
-}
-
-.pict6{
-    margin-top: -20px;
-}
-
-b{
-    font-family: 'poppins';
-    color: #000000;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-}
-
-p{
-    font-family: 'pt-serif';
-    color: #000000;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15.9px;
-    transform: rotate(90deg);
-}
-
-.name .satu b{
-    width: 117px;
-    height: 27px;
-    position: absolute;
-    top: 680px;
-    left: 230px;
-}
-
-.name .satu p{
-    width: 102px;
-    height: 16px;
-    position: absolute;
-    top: 330px;
-    left: 445px;
-}
-
-.name .dua b{
-    width: 135px;
-    height: 27px;
-    position: absolute;
-    top: 785px;
-    left: 565px;
-}
-
-.name .dua p{
-    width: 90px;
-    height: 16px;
-    position: absolute;
-    top: 435px;
-    left: 790px;
-}
-
-.name .tiga b{
-    width: 75px;
-    height: 27px;
-    position: absolute;
-    top: 680px;
-    left: 905px;
-}
-
-.name .tiga p{
-    width: 65px;
-    height: 16px;
-    position: absolute;
-    top: 320px;
-    left: 1140px;
-}
-
-.name .empat b{
-    width: 86px;
-    height: 27px;
-    position: absolute;
-    top: 1201px;
-    left: 230px;
-}
-
-.name .empat p{
-    width: 77px;
-    height: 16px;
-    position: absolute;
-    top: 845px;
-    left: 455px;
-}
-
-.name .lima b{
-    width: 129px;
-    height: 27px;
-    position: absolute;
-    top: 1306px;
-    left: 565px;
-}
-
-.name .lima p{
-    width: 68px;
-    height: 16px;
-    position: absolute;
-    top: 944px;
-    left: 800px;
-}
-
-.name .enam b{
-    width: 97px;
-    height: 27px;
-    position: absolute;
-    top: 1201px;
-    left: 907px;
-}
-
-.name .enam p{
-    width: 76px;
-    height: 16px;
-    position: absolute;
-    top: 845px;
-    left: 1135px;
-}
-
-=======
->>>>>>> versi3
 @font-face {
     font-family: 'montserrat';
     src: url(../font/montserratalternates-light-webfont.woff2)format('woff');
@@ -439,8 +242,6 @@ p{
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-=======
 /* awal mediaquery untuk handphone */
 @media(max-width:600px){
     .container{
@@ -560,4 +361,3 @@ p{
        text-align: center;
     }
 }
->>>>>>> versi3
