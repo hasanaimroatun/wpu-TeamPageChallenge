@@ -14,20 +14,19 @@
 }
 
 .container{
-    height: 1000px;
+    height: 1600px;
     margin-top: 110px;
     margin-left: 243px;
     margin-right: 243px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
+    grid-template-rows: 150px 1fr 0.5fr;
 }
 
 .header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 0.5fr;
     color: #000;
 }
 
@@ -62,9 +61,7 @@
 .profile{
     display: grid;
     grid-template-columns: 305px 305px 305px;
-    grid-template-rows: 500px 500fr;
-    background-color: pink;
-    gap: 25PX;
+    grid-template-rows: 570px;
 }
 
 .profile p{
@@ -85,12 +82,11 @@
     width: 117px;
 }
 
-/* pict1 */
+/* awal pict1 */
 .profile .pict1{
     display: grid;
     grid-template-columns: 4fr 16px;
     grid-template-rows: 426px 50px;
-    background-color: aliceblue;
 }
 
 .profile .pict1 img{
@@ -107,34 +103,130 @@
 .profile .pict1 b{
     align-self: center;
 }
+/* akhir pict1 */
 
-/* pict2 */
+/* awal pict2 */
 .profile .pict2{
     display: grid;
     grid-template-columns: 4fr 16px;
-    grid-template-rows: 426px 50px;
-    background-color: rgb(49, 101, 146);
+    grid-template-rows: 526px 50px;
 }
 
 .profile .pict2 img{
-    align-self: flex-start;
+    align-self: flex-end;
     justify-self: start;
 }
 
 .profile .pict2 p{
     align-self:start;
     justify-self: end;
-    margin-top: 112px;
+    margin-top: 212px;
 }
 
 .profile .pict2 b{
     align-self: center;
     width: 200px;
 }
+/* akhir pict2 */
+
+/* awal pict3 */
+.profile .pict3{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict3 img{
+    align-self: flex-end;
+}
+
+.profile .pict3 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict3 b{
+    align-self: center;
+}
+/* akhir pict3 */
+
+/* awal pict4 */
+.profile .pict4{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict4 img{
+    align-self: flex-end;
+}
+
+.profile .pict4 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict4 b{
+    align-self: center;
+}
+/* akhir pict4 */
+
+/* pict5 */
+.profile .pict5{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 526px 50px;
+}
+
+.profile .pict5 img{
+    align-self: flex-end;
+    justify-self: start;
+}
+
+.profile .pict5 p{
+    align-self:start;
+    justify-self: end;
+    margin-top: 212px;
+}
+
+.profile .pict5 b{
+    align-self: center;
+    width: 200px;
+}
+/* akhir pict5 */
+
+/* pict6 */
+.profile .pict6{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict6 img{
+    align-self: flex-end;
+}
+
+.profile .pict6 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict6 b{
+    align-self: center;
+}
+/* akhir pict6 */
+
 
 .footer{
     font-family: 'montserrat',sans-serif;
-    text-align: center;
+    justify-self: center;
+    align-self: flex-end;
 }
 
 .footer a{
