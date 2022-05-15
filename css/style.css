@@ -24,6 +24,7 @@
     grid-template-rows: 150px 1fr 0.5fr;
 }
 
+/* awal header */
 .header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,7 +59,9 @@
     width: 439px;
     line-height: 27px;
 }
+/* akhir header */
 
+/* awal profile */
 .profile{
     display: grid;
     grid-template-columns: 305px 305px 305px;
@@ -222,8 +225,9 @@
     align-self: center;
 }
 /* akhir pict6 */
+/* akhir profile */
 
-
+/* awal footer */
 .footer{
     font-family: 'montserrat',sans-serif;
     font-size: 14px;
@@ -241,6 +245,7 @@
     text-decoration: none;
     font-weight: 700;
 }
+/* akhir footer */
 
 /* awal mediaquery untuk handphone */
 @media(max-width:600px){
@@ -251,6 +256,8 @@
         margin-top: 71px;
         margin-left: 12px;
     }
+
+    /* awal header */
     .header{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -262,7 +269,9 @@
         height: 87px;
         line-height: 21px;
     }
+    /* akhir header */
 
+    /* awal profile */
     .profile{
         grid-template-columns:190px 190px;
         grid-template-rows: 1fr 1fr 1fr;
@@ -356,8 +365,12 @@
         margin-left: 30px;
     }
     /* akhir pict6 */
+    /* akhir profile */
 
+    /* awal footer */
     .footer{
        text-align: center;
     }
+    /* akhir footer */
 }
+/* akhir mediaquery untuk handphone */
