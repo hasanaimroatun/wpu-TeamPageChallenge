@@ -226,14 +226,20 @@
 
 .footer{
     font-family: 'montserrat',sans-serif;
+    font-size: 14px;
+    height: 17px;
+    width: 387px;
+    line-height: 17.07px;
+    color: #a9a9a9;
     justify-self: center;
     align-self: flex-end;
+    font-weight: 500;
 }
 
 .footer a{
     color: inherit;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* awal mediaquery untuk handphone */
@@ -258,10 +264,100 @@
     }
 
     .profile{
-        grid-template-columns:1fr 1fr;
+        grid-template-columns:190px 190px;
         grid-template-rows: 1fr 1fr 1fr;
+        margin-top: 90px;
+        row-gap: 10px;
     }
-    .profile .pict1 img{
-        display:none;
+    .profile img{
+        max-width: 138px;
+    }
+    .profile p{
+        font-size: 10px;
+        width: 130px;
+        height: 11px;
+        line-height: 13.25px;
+    }
+    .profile b{
+        font-size: 14px;
+        height: 18px;
+        line-height: 21px;
+        width: 141px;
+    }
+
+    /* awal pict1 */
+    .profile .pict1{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict1 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict1 */
+
+    /* awal pict2 */
+    .profile .pict2{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict2 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict2 */
+
+    /* awal pict3 */
+    .profile .pict3{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict3 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict3 */
+
+    /* awal pict4 */
+    .profile .pict4{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict4 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict4 */
+
+    /* awal pict5 */
+    .profile .pict5{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict5 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict5 */
+
+    /* awal pict6 */
+    .profile .pict6{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict6 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict6 */
+
+    .footer{
+       text-align: center;
     }
 }
