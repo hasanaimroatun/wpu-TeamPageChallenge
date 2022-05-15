@@ -14,10 +14,11 @@
 }
 
 .container{
-    height: 1600px;
+    height: 1489px;
     margin-top: 110px;
     margin-left: 243px;
     margin-right: 243px;
+    margin-bottom: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 150px 1fr 0.5fr;
@@ -235,3 +236,32 @@
     font-weight: 600;
 }
 
+/* awal mediaquery untuk handphone */
+@media(max-width:600px){
+    .container{
+        width: 375px;
+        height: 1409px;
+        background-color: #fafafa;
+        margin-top: 71px;
+        margin-left: 12px;
+    }
+    .header{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 45px;
+    } 
+    .header .utama p{
+        font-size: 14px;
+        width: 333px;
+        height: 87px;
+        line-height: 21px;
+    }
+
+    .profile{
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .profile .pict1 img{
+        display:none;
+    }
+}
