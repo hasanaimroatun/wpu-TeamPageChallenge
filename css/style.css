@@ -3,6 +3,7 @@
     src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
 }
 
+<<<<<<< HEAD
 .header .judul b{
     font-family: 'pt-serif', sans-serif;
     font-size: 36px;
@@ -17,11 +18,14 @@
     left: 243px;
 }
 
+=======
+>>>>>>> versi3
 @font-face {
     font-family: 'poppins';
     src: url(../font/poppins-regular-webfont.woff2)format('woff2');
 }
 
+<<<<<<< HEAD
 .subjudul{
     font-family: 'poppins', sans-serif;
     font-size: 18px;
@@ -199,23 +203,234 @@ p{
     left: 1135px;
 }
 
+=======
+>>>>>>> versi3
 @font-face {
     font-family: 'montserrat';
     src: url(../font/montserratalternates-light-webfont.woff2)format('woff');
 }
 
+.container{
+    height: 1489px;
+    margin-top: 110px;
+    margin-left: 243px;
+    margin-right: 243px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr 0.5fr;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    color: #000;
+}
+
+.header .judul{
+    font-family: 'pt-serif',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    height: 47px;
+    width: 278px;
+    line-height: 47.7px;
+    letter-spacing: -0.045em;
+}
+
+.header .utama b{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 27px;
+    width: 117px;
+    line-height: 27px;
+}
+
+.header .utama p{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 87px;
+    width: 439px;
+    line-height: 27px;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 305px 305px 305px;
+    grid-template-rows: 570px;
+}
+
+.profile p{
+    font-family: 'pt-serif',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    transform: rotate(90deg);
+    width: 102px;
+    height: 16px;
+}
+
+.profile b{
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    height: 27px;
+    line-height: 27px;
+    width: 117px;
+}
+
+/* awal pict1 */
+.profile .pict1{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict1 img{
+    align-self: flex-end;
+}
+
+.profile .pict1 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict1 b{
+    align-self: center;
+}
+/* akhir pict1 */
+
+/* awal pict2 */
+.profile .pict2{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 526px 50px;
+}
+
+.profile .pict2 img{
+    align-self: flex-end;
+    justify-self: start;
+}
+
+.profile .pict2 p{
+    align-self:start;
+    justify-self: end;
+    margin-top: 212px;
+}
+
+.profile .pict2 b{
+    align-self: center;
+    width: 200px;
+}
+/* akhir pict2 */
+
+/* awal pict3 */
+.profile .pict3{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict3 img{
+    align-self: flex-end;
+}
+
+.profile .pict3 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict3 b{
+    align-self: center;
+}
+/* akhir pict3 */
+
+/* awal pict4 */
+.profile .pict4{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict4 img{
+    align-self: flex-end;
+}
+
+.profile .pict4 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict4 b{
+    align-self: center;
+}
+/* akhir pict4 */
+
+/* pict5 */
+.profile .pict5{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 526px 50px;
+}
+
+.profile .pict5 img{
+    align-self: flex-end;
+    justify-self: start;
+}
+
+.profile .pict5 p{
+    align-self:start;
+    justify-self: end;
+    margin-top: 212px;
+}
+
+.profile .pict5 b{
+    align-self: center;
+    width: 200px;
+}
+/* akhir pict5 */
+
+/* pict6 */
+.profile .pict6{
+    display: grid;
+    grid-template-columns: 4fr 16px;
+    grid-template-rows: 426px 50px;
+}
+
+.profile .pict6 img{
+    align-self: flex-end;
+}
+
+.profile .pict6 p{
+    align-self:flex-start;
+    justify-self:center;
+    margin-top: 112px;
+    margin-right: 90px;
+}
+
+.profile .pict6 b{
+    align-self: center;
+}
+/* akhir pict6 */
+
+
 .footer{
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat',sans-serif;
     font-size: 14px;
-    font-weight: 500;
-    color: #a9a9a9;
-    line-height: 17.07px;
-    text-align: center;
-    position: absolute;
-    width: 500px;
     height: 17px;
-    top: 1448px;
-    left: 445px;
+    width: 387px;
+    line-height: 17.07px;
+    color: #a9a9a9;
+    justify-self: center;
+    align-self: flex-end;
+    font-weight: 500;
 }
 
 .footer a{
@@ -224,3 +439,125 @@ p{
     font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+/* awal mediaquery untuk handphone */
+@media(max-width:600px){
+    .container{
+        width: 375px;
+        height: 1409px;
+        background-color: #fafafa;
+        margin-top: 71px;
+        margin-left: 12px;
+    }
+    .header{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 45px;
+    } 
+    .header .utama p{
+        font-size: 14px;
+        width: 333px;
+        height: 87px;
+        line-height: 21px;
+    }
+
+    .profile{
+        grid-template-columns:190px 190px;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top: 90px;
+        row-gap: 10px;
+    }
+    .profile img{
+        max-width: 138px;
+    }
+    .profile p{
+        font-size: 10px;
+        width: 130px;
+        height: 11px;
+        line-height: 13.25px;
+    }
+    .profile b{
+        font-size: 14px;
+        height: 18px;
+        line-height: 21px;
+        width: 141px;
+    }
+
+    /* awal pict1 */
+    .profile .pict1{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict1 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict1 */
+
+    /* awal pict2 */
+    .profile .pict2{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict2 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict2 */
+
+    /* awal pict3 */
+    .profile .pict3{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict3 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict3 */
+
+    /* awal pict4 */
+    .profile .pict4{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict4 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict4 */
+
+    /* awal pict5 */
+    .profile .pict5{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 210px 25px;
+    }
+
+    .profile .pict5 p{
+        margin-top: 63px;
+        margin-left:30px;
+    }
+    /* akhir pict5 */
+
+    /* awal pict6 */
+    .profile .pict6{
+        grid-template-columns: 4fr 16px;
+        grid-template-rows: 260px 25px;
+    }
+
+    .profile .pict6 p{
+        margin-top: 112px;
+        margin-left: 30px;
+    }
+    /* akhir pict6 */
+
+    .footer{
+       text-align: center;
+    }
+}
+>>>>>>> versi3
