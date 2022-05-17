@@ -104,7 +104,7 @@
 .profile .pict2, .profile .pict5{
     display: grid;
     grid-template-columns: 250px 16px;
-    grid-template-rows: 460px 27px;
+    grid-template-rows: 460px 43px;
 }
 
 .profile .pict2 img, .profile .pict5 img{
@@ -115,6 +115,11 @@
     justify-self: center;
     margin-top: 145px;
 }
+
+.profile .pict2 b, .profile .pict5 b{
+    align-self: flex-end;
+}
+
 /* akhir pict2 dan 5 */
 /* akhir profile */
 
@@ -183,6 +188,7 @@
         line-height: 21px;
         width: 128px;
         height: 18px;
+        align-self: flex-end;
     }
     
     /* awal pict1,3, dan 5 */
@@ -211,6 +217,7 @@
     .profile img{
         align-self: flex-end;
     }
+     /* akhir pict 4 dan 6 */
     /* akhir profile */
     
     /* awal footer */
