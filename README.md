@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/hasanaimroatun/wpu-TeamPageChallenge/blob/main/2022-08-04%20(2).png">
+    <a href="https://team-page-challenge-c263b.web.app">
       Demo
     </a>
     <span> | </span>
@@ -36,12 +36,13 @@
 
 ![screenshot](https://github.com/hasanaimroatun/wpu-TeamPageChallenge/blob/main/2022-08-04%20(2).png)
 
-You can see my demo on github. I have no experience in website development but i have interest in this field since a month ago. I have learned css and html from youtube and few website. I hope with more learn and practice from devChallenges can improve my skill in developing website.
+You can see my demo on https://team-page-challenge-c263b.web.app. I have no experience in website development but i have interest in this field since a month ago. I have learned css and html from youtube and few website. I hope with more learn and practice from devChallenges can improve my skill in developing website.
 
 
 ### Built With
 
 - [VSCode](https://code.visualstudio.com)
+- [Fire Base Hosting](https://firebase.google.com)
 
 ## Features
 
