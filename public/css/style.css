@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'pt-serif';
+    src: url(../font/ptserif-regular-webfont.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/poppins-regular-webfont.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../font/montserratalternates-light-webfont.woff2)format('woff');
+}
+
+.container{
+    height: 1448px;
+    width:1000px;
+    margin: 110px auto 25px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1000px 100px;
+    row-gap: 100px;
+}
+
+/* awal header */
+.header{
+    display: flex;
+    flex-grow: 1 1;
+    justify-content: space-between;
+    color: #000;
+}
+
+.header .judul b{
+    font-family:'pt-serif',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.7px;
+    letter-spacing: 0.045em;
+}
+
+.header .utama b{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.header .utama p{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 439px;
+    height: 87px;
+    margin-top: 20px;
+}
+/* akhir header */
+
+/* awal profile */
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 90px;
+    color: #000;
+}
+
+.profile p{
+    font-family: 'pt-serif',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.9px;
+    width: 102px;
+    height: 16px;
+    transform: rotate(90deg);
+}
+
+.profile b{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    width: 130px;
+    height: 27px;
+}
+
+/* awal pict1,3,4, dan 6 */
+.profile .pict1, .profile .pict3, .profile .pict4, .profile .pict6{
+    display: grid;
+    grid-template-columns: 250px 16px;
+    grid-template-rows: 375px 27px;
+}
+
+.profile .pict1 p, .profile .pict3 p, .profile .pict4 p, .profile .pict6 p{
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: 45px;
+}
+/* akhir pict1,3,4, dan 6 */
+
+/* awal pict2 dan 5 */
+.profile .pict2, .profile .pict5{
+    display: grid;
+    grid-template-columns: 250px 16px;
+    grid-template-rows: 460px 43px;
+}
+
+.profile .pict2 img, .profile .pict5 img{
+    align-self: flex-end;
+}
+.profile .pict2 p, .profile .pict5 p{
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: 145px;
+}
+
+.profile .pict2 b, .profile .pict5 b{
+    align-self: flex-end;
+}
+
+/* akhir pict2 dan 5 */
+/* akhir profile */
+
+/* awal footer */
+.footer{
+    font-family: 'montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #a9a9a9;
+    width: 400px;
+    height: 17px;
+    align-self: flex-end;
+    justify-self: center;
+    margin-left: 50px;
+}
+
+.footer a{
+    color: inherit;
+    font-weight: 700;
+}
+/* akhir footer */
+
+/* awal media-query untuk handphone */
+@media (max-width:600px){
+    .container{
+        height: 1409px;
+        width:375px;
+        margin: 71px 12px 0px;
+        grid-template-rows: 180px 900px 180px;
+        row-gap: 50px;
+    }
+    
+    /* awal header */
+    .header{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    
+    .header .utama p{
+        font-size: 14px;
+        line-height: 21px;
+        width: 333px;
+        margin-top: 15px;
+    }
+    /* akhir header */
+    
+    /* awal profile */
+    .profile{
+        column-gap: 25px;
+        row-gap: 10px;
+    }
+    
+    .profile img{
+        max-width: 138px;
+    }
+
+    .profile p{
+        font-size: 12px;
+        line-height: 13.25px;
+        height: 11px;
+    }
+    
+    .profile b{
+        font-size: 14px;
+        line-height: 21px;
+        width: 128px;
+        height: 18px;
+        align-self: flex-end;
+    }
+    
+    /* awal pict1,3, dan 5 */
+    .profile .pict1, .profile .pict3, .profile .pict5{
+        grid-template-columns: 145px 16px;
+        grid-template-rows: 220px 27px;
+    }
+
+    .profile .pict1 p,.profile .pict3 p, .profile .pict5 p{
+        margin-top: 60px;
+    }
+    /* akhir pict1,3, dan 5 */
+
+    /* awal pict2, 4 dan 6 */
+    .profile .pict2, .profile .pict4, .profile .pict6{
+        grid-template-columns: 145px 16px;
+        grid-template-rows: 270px 27px;
+    }
+
+    .profile .pict2 p, .profile .pict4 p, .profile .pict6 p{
+        margin-top: 110px;
+    }
+    /* akhir pict2, 4, dan 6 */
+
+    /* awal pict 4 dan 6 */
+    .profile img{
+        align-self: flex-end;
+    }
+     /* akhir pict 4 dan 6 */
+    /* akhir profile */
+    
+    /* awal footer */
+    .footer{
+        margin-left: 46px;
+    }
+    /* akhir footer */
+}
+/* akhir media-query untuk handphone */
+
